@@ -192,6 +192,51 @@ footer .logoFooter{
     cursor: pointer;
 }
 
+.hero-banner-ia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 500px;
+    background-image: url(/img/bgIA.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-banner-ia h1{   
+    height: 28vh;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-banner-ia p{
+    margin-top: -100px;
+    color: white;
+}
+
+.hero-banner-ia button{   
+    position: relative;
+    margin-top: 70px;
+    color: white;
+    font-size: 18px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 240px;
+    height: 80px;
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+.hero-banner-ia button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 .section-ag{
     display: flex;
     flex-direction: column;
@@ -238,6 +283,15 @@ footer .logoFooter{
     font-size: 20px;
 }
 
+.section2-ag img{
+   
+    position: relative;
+    top: 200px;
+    margin-left: 40px;
+    height: 350px;
+   
+}
+
 .footer-ag{
     position: absolute;
     bottom: -1080px;
@@ -247,4 +301,81 @@ footer .logoFooter{
     padding: 20px 0px;  
 }
 
+.footer-cl{
+    position: absolute;
+    bottom: -700px;
+    height: 90px;
+    width: 100%;
+    background-color: #484548;
+    padding: 20px 0px;  
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+  /* Card */
+.card {
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+  
+  /* Card Header*/
+.card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+  
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+  
+  /* Card Body */
+.card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+  
+.card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+}
+  
+.card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+  
+  /* Card Footer */
+.card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+}
+  
+.card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
   
