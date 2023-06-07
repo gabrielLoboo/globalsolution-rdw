@@ -5,10 +5,18 @@
 // });
 
 const enviar = document.querySelector("button")
-const nome = document.getElementById("nome")
+const assunto = document.getElementById("assunto")
+const email = document.getElementById("email")
+const mensagem = document.getElementById("mensagem")
 
 enviar.addEventListener("click", function(){
-    if (nome.value === ''){
-        alert('Preencha os campos')
+    if (validaCampos()){
+        alert('Por favor, preencha os campos pedidos!')
+    } else{
+        alert('Mensagem enviada com sucesso!')
     }
 });
+
+function validaCampos(){
+    return nome.value === '' || assunto.value === ''|| email.value === '' || mensagem.value === '';
+}
