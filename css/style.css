@@ -99,4 +99,50 @@ footer .logoFooter{
     
 }
 
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 500px;
+    background-image: url(/img/bgAgricultura.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h1{   
+    height: 28vh;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-section p{
+    margin-top: -100px;
+    color: white;
+}
+
+.hero-section button{   
+    position: relative;
+    margin-top: 70px;
+    color: white;
+    font-size: 18px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 240px;
+    height: 80px;
+    transition: 0.6s;
+    overflow: hidden;
+   
+}
+
+.hero-section button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 
