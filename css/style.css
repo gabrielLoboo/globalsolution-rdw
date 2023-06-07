@@ -80,8 +80,7 @@ footer{
     height: 90px;
     width: 100%;
     background-color: #484548;
-    padding: 20px 0px;
-    
+    padding: 20px 0px;  
 }
 
 footer ul li p{
@@ -153,6 +152,7 @@ footer .logoFooter{
 
 .section-ag h1{
     font-size: 50px;
+    color: #e87146;
 }
 
 .section-ag .txt-1{
@@ -175,11 +175,12 @@ footer .logoFooter{
 
 .section2-ag{
     position: relative;
-    top: -290px;
+    top: -150px;
 }
 
 .section2-ag h1{
     margin-bottom: 50px;
+    color: #e87146;
 }
 
 .section2-ag p{
@@ -188,5 +189,12 @@ footer .logoFooter{
     font-size: 20px;
 }
 
-
+.footer-ag{
+    position: absolute;
+    bottom: -1080px;
+    height: 90px;
+    width: 100%;
+    background-color: #484548;
+    padding: 20px 0px;  
+}
 
