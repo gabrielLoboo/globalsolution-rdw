@@ -276,8 +276,8 @@ footer .logoFooter{
 }
 
 .section-ag img{
-    height: 700px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     margin-left: 20px;
     margin-top: 40px;
 }
@@ -288,7 +288,8 @@ footer .logoFooter{
 
 .section2-ag{
     position: relative;
-    top: -150px;
+    top: 20px;
+    margin-left: 20px;
 }
 
 .section2-ag h1{
@@ -298,7 +299,8 @@ footer .logoFooter{
 
 .section2-ag p{
     margin-bottom: 40px;
-    white-space: pre-line;
+    white-space: pre;
+    margin-left: 20px;
     font-size: 20px;
 }
 
@@ -313,7 +315,7 @@ footer .logoFooter{
 
 .footer-ag{
     position: absolute;
-    bottom: -1080px;
+    bottom: -1600px;
     height: 90px;
     width: 100%;
     background-color: #484548;
@@ -323,6 +325,25 @@ footer .logoFooter{
 .footer-cl{
     position: absolute;
     bottom: -700px;
+    height: 90px;
+    width: 100%;
+    background-color: #484548;
+    padding: 20px 0px;  
+}
+
+.footer-ia{
+    position: absolute;
+    bottom: -1700px;
+    height: 90px;
+    width: 100%;
+    background-color: #484548;
+    padding: 20px 0px;  
+}
+
+
+.footer-cntt{
+    position: relative;
+    bottom: -1300x;
     height: 90px;
     width: 100%;
     background-color: #484548;
@@ -397,4 +418,3 @@ footer .logoFooter{
     font-family: sans-serif;
     font-weight: 600;
 }
-  
