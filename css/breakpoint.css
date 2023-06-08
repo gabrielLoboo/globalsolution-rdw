@@ -21,7 +21,6 @@
         top: 80px;
         left: 0;
         text-align: center;
-        transition: all 0.5s;
         justify-content: center;
     }
 
@@ -39,5 +38,3 @@
         top: 0;
     }
 }
-
-/**/
